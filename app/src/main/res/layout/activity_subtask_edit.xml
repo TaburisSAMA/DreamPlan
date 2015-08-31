@@ -20,7 +20,7 @@
             android:id="@+id/subTask_edit_name"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:hint="Subtask Name"
+            android:hint="子任务名称"
             android:background="@color/list_item_bg"/>
 
         <View
@@ -35,7 +35,7 @@
 
             <TableRow>
                 <TextView
-                    android:text="Start"
+                    android:text="开始"
                     android:layout_width="64dp"
                     android:layout_height="44dp"
                     android:gravity="center"/>
@@ -62,7 +62,7 @@
 
             <TableRow>
                 <TextView
-                    android:text="End"
+                    android:text="结束"
                     android:layout_width="64dp"
                     android:layout_height="44dp"
                     android:gravity="center"/>
@@ -89,7 +89,7 @@
 
             <TableRow>
                 <TextView
-                    android:text="Status"
+                    android:text="状态"
                     android:layout_width="64dp"
                     android:layout_height="44dp"
                     android:gravity="center"/>
@@ -117,7 +117,7 @@
                     android:layout_width="64dp"
                     android:layout_height="wrap_content"
                     android:minHeight="72dp"
-                    android:text="Memo"
+                    android:text="备注"
                     android:gravity="center"/>
 
                 <EditText
@@ -150,7 +150,7 @@
                 android:layout_weight="1"
                 android:background="@color/primary"
                 android:textColor="#ffffff"
-                android:text="Save"
+                android:text="保存"
                 android:layout_margin="4dp"
                 android:onClick="onClickSave" />
 
@@ -160,7 +160,7 @@
                 android:layout_weight="1"
                 android:background="@color/primary"
                 android:textColor="#ffffff"
-                android:text="Cancel"
+                android:text="取消"
                 android:layout_margin="4dp"
                 android:onClick="onClickCancel" />
 
@@ -170,7 +170,7 @@
                 android:layout_weight="1"
                 android:background="@color/primary"
                 android:textColor="#ffffff"
-                android:text="Delete"
+                android:text="删除"
                 android:layout_margin="4dp"
                 android:onClick="onClickDelete" />
 

@@ -20,7 +20,7 @@ public class SubtaskBarView extends BarView {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        // Set Background.
+        // Set Background.子任务的背景色
         canvas.drawColor(Color.argb(20, 60, 92, 111));
         super.onDraw(canvas);
     }

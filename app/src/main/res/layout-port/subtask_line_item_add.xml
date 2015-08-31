@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="32dp"
         android:background="@color/primary"
-        android:text="+ Subtask"
+        android:text="+ 子任务"
         android:textSize="18sp"
         android:textColor="#ffffff" />
 

@@ -87,7 +87,7 @@ public class GanttTableAdapter extends BaseTableAdapter {
             children.add(slist);
         }
 
-        // Listの個数(ny)を求める
+        // List 個数(ny)を求める
         int taskCnt = groups.size();
         int subtaskCnt = 0;
         for (List<SubTask> subTasks : children) {
@@ -295,7 +295,7 @@ public class GanttTableAdapter extends BaseTableAdapter {
         int width;
         switch (column) {
             case -1:
-                width = Math.round(160 * scale);
+                width = Math.round(160 * scale); /* 设置项目标签的宽度 */
                 break;
             case 0:
                 width = nx * dx;
