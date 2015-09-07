@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/nagamatsuayumu/AndroidStudioProjects/DreamPlan/libraries/paralloid/build/intermediates/bundles/debug/res/values/values.xml -->
+    <!-- From: file:/home/lyn/AndroidStudioProjects/BQShedule/libraries/paralloid/build/intermediates/bundles/debug/res/values/values.xml -->
     <eat-comment/>
     <string name="app_name">Library-Paralloid</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
